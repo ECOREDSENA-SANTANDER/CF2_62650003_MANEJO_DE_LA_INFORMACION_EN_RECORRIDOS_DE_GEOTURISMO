@@ -2,14 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+    top: 8%
+    right: 81%
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -20,11 +14,155 @@
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  max-width: 500px !important
 .banner-interno__titulo__icono i
-  color: $color-primario
-figcaption
+  color: white
+figcaption, caption
   font-weight: normal
+
+
+.barra-avance__boton--regresar span
+  color: white !important
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.banner-interno .banner-interno__fondo
+  background-image:  url('../assets/curso/portada/mini-portada.png') !important
+  background-position: top left
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario     
+.lista-ul--color.color-adicional-1 li > i:first-of-type  
+  color: $color-adicional-1  
+.lista-ul--color.color-adicional-2 li > i:first-of-type  
+  color: $color-adicional-2  
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-botones
+  background-color: $color-acento-botones
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: $color-sistema-texto
+.text-color-sistema
+  color: $color-sistema-texto !important
+.bg-color-adicional-1
+  background-color: $color-adicional-1
+.ct-color-primario
+  color: $color-primario
+.ct-color-acento-botones
+  color: $color-acento-botones
+.ct-secundario 
+  color: $color-secundario !important
+.ct-acento-contenido 
+  color: $color-acento-contenido !important
+.w-fit
+  width: fit-content
+.columns-2
+  columns: 2
+.font-italic
+  font-style: italic !important
+.sin-borde
+  border: 0px !important
+.br-top
+  border-top-left-radius: 20px 
+  border-top-right-radius: 20px 
+.br-left
+  border-top-left-radius: 20px 
+  border-bottom-left-radius: 20px 
+.br-right
+  border-top-right-radius: 20px 
+  border-bottom-right-radius: 20px 
+.tabs-a__tab__text 
+  white-space: normal
+.l-circle i.fa-circle
+  font-size: 6px
+  top: 10px !important
  
+.bg1
+  background-color: #C3C8D1
+.bg2
+  background-color:#F3DEC2
+.bg3
+  background-color:#E2F0FC
+.bg4
+  background-color:#FEF8E6
+
+.b-redo
+  border-top-right-radius: 50px
+  border-bottom-right-radius: 50px
+  .bloque-texto-g__texto
+    width: 65%
+    border-radius: 50px
+    border-radius: 50px
+  @media (max-width: $bp-max-md)
+    border-radius: 0px
+    border-bottom-right-radius: 50px
+    border-bottom-left-radius: 50px
+    .bloque-texto-g__texto
+      width: 100%
+      border-radius: 0px
+      border-bottom-right-radius: 50px
+      border-bottom-left-radius: 50px
+      padding-right: 1.5rem !important
+.subt
+  display: flex
+  align-items: center
+  gap: 1rem
+  position: relative
+  width: fit-content
+  img
+    width: 50px
+    z-index: 1
+  h2
+    z-index: 2
+    padding-right: 2.5rem
+  &::before
+    content: ''
+    position: absolute
+    top: 3px
+    right: 0px
+    width: 95%
+    height: 70%
+    background-color: $color-secundario
+  &::after
+    content: ''
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    right: -10px
+    width: 15px
+    height: 15px
+    background-image: url('../assets/curso/temas/t1/subt1-2.svg')
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+  @media (max-width: $bp-max-md)
+    h2
+      padding-right: 1rem
+    &::before
+      height: 90%
+    &::after
+      right: -7px
+.color-botones
+  &:hover
+    background-color: #E2F0FC
+.tabla-a.color-primario
+  thead
+    border-color: #CDB3B1
+    background-color: #FBE49D
+  tbody
+    tr, td
+      vertical-align: baseline
+.tabs-a__tab
+  background-color: #CDB3B1

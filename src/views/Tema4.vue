@@ -8,6 +8,20 @@
       h1 Tema 4
 
 
+
+    Separador
+    #t_4_1.titulo-segundo.color-primario(data-aos='fade-right')
+      h2 4.1  Factores de riesgo, medidas preventivas, correctivas y protocolos de seguridad
+
+
+
+    Separador
+    #t_4_2.titulo-segundo.color-primario(data-aos='fade-right')
+      h2 4.2  Plan de contingencia: conceptos, componentes, estructura y respuesta ante eventualidades
+
+
+
+
 </template>
 
 <script>

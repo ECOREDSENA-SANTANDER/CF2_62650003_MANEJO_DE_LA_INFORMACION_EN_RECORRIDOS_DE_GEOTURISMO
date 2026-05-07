@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Diseño, planificación y ejecución de recorridos geoturísticos'
