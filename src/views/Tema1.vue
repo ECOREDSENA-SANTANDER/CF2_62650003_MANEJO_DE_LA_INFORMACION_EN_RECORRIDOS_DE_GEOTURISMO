@@ -24,7 +24,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 Actividades que enriquecen la experiencia geoturística
+      h3.mb-0 Actividades que enriquecen la experiencia geoturística
 
     p.mb-1 El geoturismo integra actividades que permiten aprender, observar, interpretar y disfrutar el territorio de manera activa. Estas experiencias combinan recreación y educación geológica, favoreciendo procesos de aprendizaje en contextos formales, no formales e informales, y acercando a diferentes públicos al conocimiento del paisaje y del patrimonio geológico (Damas Mollá et al., 2024; Fernández-Martínez et al., 2014; Schilling, 2019).
     p.mb-4 Entre las actividades más representativas se encuentran:
@@ -81,7 +81,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 Tipos de usuarios del geoturismo
+      h3.mb-0 Tipos de usuarios del geoturismo
 
     p.mb-4 El perfil del visitante geoturístico es diverso. Algunos usuarios buscan explicaciones técnicas y científicas, mientras que otros prefieren experiencias recreativas, culturales o vivenciales. Por esta razón, el guía de turismo debe identificar el tipo de visitante que acompaña, para ajustar la forma de comunicar la información y seleccionar estrategias acordes con las necesidades del grupo.
 
@@ -128,7 +128,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 Características frecuentes del usuario geoturístico
+      h3.mb-0 Características frecuentes del usuario geoturístico
 
     p El usuario del geoturismo suele valorar experiencias auténticas, educativas y conectadas con el territorio. También puede mostrar interés por la conservación, la cultura local y la comprensión del paisaje.
     p.mb-4 Las actividades más representativas se encuentran:
@@ -172,7 +172,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 Segmentos del usuario del geoturismo
+      h3.mb-0 Segmentos del usuario del geoturismo
 
     .bg3.mb-4(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -193,7 +193,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 Importancia para la guianza turística
+      h3.mb-0 Importancia para la guianza turística
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade")
       .bloque-texto-g__img(
@@ -206,7 +206,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 Decisiones del guía según el perfil del usuario
+      h3.mb-0 Decisiones del guía según el perfil del usuario
 
     .row.justify-content-center.mb-4
       .col-lg-3.col-md-6.col-8.mb-3.mb-lg-0(data-aos="fade-right")

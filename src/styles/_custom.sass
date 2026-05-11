@@ -94,12 +94,27 @@ figcaption, caption
 .bg2
   background-color:#F3DEC2
 .bg3
-  background-color:#E2F0FC
+  background-color:#E2F0FC !important
 .bg4
   background-color:#FEF8E6
 .bg5
   background-color: #4F3C24
-
+.bg6
+  background-color:#4E2825 !important
+.bg7
+  background-color:#FBE49D
+.bg8
+  background-color:#CDB3B1
+.bg9
+  background-color:#F2ECEB
+.bg10
+  background-color:#FCF7EF
+.bg11
+  background-color:#F9F7F0
+  
+  
+.w-95x
+  width: 95px
 .b-redo
   border-top-right-radius: 50px
   border-bottom-right-radius: 50px
@@ -126,7 +141,7 @@ figcaption, caption
   img
     width: 50px
     z-index: 1
-  h2
+  h3
     z-index: 2
     padding-right: 2.5rem
   &::before
@@ -150,7 +165,7 @@ figcaption, caption
     background-position: center
     background-repeat: no-repeat
   @media (max-width: $bp-max-md)
-    h2
+    h3
       padding-right: 1rem
     &::before
       height: 90%
@@ -159,6 +174,23 @@ figcaption, caption
 .color-botones
   &:hover
     background-color: #E2F0FC
+  &--2
+    position: relative
+    h4, p
+      color: white
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      right: 0
+      width: 80px
+      height: 80px
+      background: url('../assets/curso/temas/t5/deco.svg') no-repeat center 
+      background-size: contain      
+    &:hover
+      background-color: #FCF7EF
+      h4, p
+        color: $color-sistema-texto
 .tabla-a.color-primario
   thead
     border-color: #CDB3B1
@@ -168,5 +200,30 @@ figcaption, caption
       vertical-align: baseline
 .tabs-a__tab
   background-color: #CDB3B1
-.w-95x
-  width: 95px
+.acordion 
+  &__activo
+    background-color: #F3DEC2
+  &__accion__btn--a
+    background-color: #3B4B68
+    i 
+      color: white
+.linea-tiempo-e:before
+  background: #3B4B68
+.linea-tiempo-d
+  &__item__content__title, &__item__number
+    background-color: #3B4B68
+    color: white
+    font-weight: bold
+    border-radius: 5px
+  &__item--selected 
+    .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content
+      background-color: #F2ECEB
+      color: $color-sistema-texto !important
+    .linea-tiempo-d__item__number
+      background-color: #CDB3B1 !important
+      color: $color-sistema-texto !important
+.img-infografica__item, .img-infografica-b__item
+  width: 5.5%
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  font-style: normal !important

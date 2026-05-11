@@ -5,11 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Información e interpretación del territorio
 
     .bg3.mb-4(data-aos="fade")
       .row.justify-content-center.align-items-center
-        .col-lg-5
+        .col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/1.png', alt='')
         .col-lg-7
           .p-4
@@ -34,7 +34,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 Fuentes para conocer el territorio
+      h3.mb-0 Fuentes para conocer el territorio
 
     TabsA.color-acento-botones.mb-4(data-aos="fade-down")
       .tarjeta.bg4.p-4(titulo="Fuentes primarias")
@@ -58,27 +58,136 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 Manifestaciones culturales que enriquecen el recorrido
+      h3.mb-0 Manifestaciones culturales que enriquecen el recorrido
 
-      
+    AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-acento-contenido" data-aos="fade")
+      .row.justify-content-around.align-items-center(titulo="Idiosincrasia")
+        .col-11.col-md-11.col-lg-5
+          p Hace referencia a los rasgos, costumbres, formas de pensar y maneras de actuar que distinguen a una comunidad. Conocerla permite al guía interpretar mejor las relaciones entre las personas, el territorio y la naturaleza.
+        .col-11.col-md-8.col-lg-5
+          img(src='@/assets/curso/temas/t2/acord1-1.png', alt='')
+      .row.justify-content-around.align-items-center(titulo="Mitos y leyendas")
+        .col-11.col-md-11.col-lg-5
+          p Son relatos de la tradición oral que transmiten memoria, valores y significados simbólicos. En el recorrido, ayudan a conectar el paisaje con las creencias, historias y explicaciones culturales del territorio.
+        .col-11.col-md-8.col-lg-5
+          img(src='@/assets/curso/temas/t2/acord1-2.png', alt='')
+      .row.justify-content-around.align-items-center(titulo="Tradiciones")
+        .col-11.col-md-11.col-lg-5
+          p Incluyen celebraciones, oficios, prácticas cotidianas, saberes comunitarios y formas de organización social. Integrarlas en la guianza permite mostrar el patrimonio vivo de la comunidad.
+        .col-11.col-md-8.col-lg-5
+          img(src='@/assets/curso/temas/t2/acord1-3.png', alt='')
+      .row.justify-content-around.align-items-center(titulo="Gastronomía")
+        .col-11.col-md-11.col-lg-5
+          p Representa la relación entre la comunidad, el entorno ecológico y los recursos alimentarios. Los productos locales, las preparaciones tradicionales y los relatos sobre los alimentos fortalecen la identidad territorial.
+        .col-11.col-md-8.col-lg-5
+          img(src='@/assets/curso/temas/t2/acord1-4.png', alt='')
+      .row.justify-content-around.align-items-center(titulo="Prácticas agroecoturísticas")
+        .col-11.col-md-11.col-lg-5
+          p Articulan producción agrícola, conocimientos locales, cuidado ambiental y experiencia turística. Permiten mostrar saberes campesinos, formas de vida rurales y relaciones sostenibles con la naturaleza.
+        .col-11.col-md-8.col-lg-5
+          img(src='@/assets/curso/temas/t2/acord1-5.png', alt='')
 
 
     Separador
     #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
       h2 2.2  Guion del recorrido e interpretación del patrimonio: relatos, diálogos, actividades, redacción y validación
 
+    .bloque-texto-g.bg6.b-redo.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade")
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/t2/5.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4.px-lg-5
+        p El guion del recorrido es una herramienta que ayuda al guía a organizar la información que compartirá con los visitantes. No se trata de escribir un texto para memorizar palabra por palabra, sino de preparar una ruta comunicativa con inicio, desarrollo, cierre, mensajes clave y actividades de interpretación.
+        p.mb-0 Según González Molina et al. (2023), el guion turístico permite orientar e informar, pero también generar sensibilidad e interés frente a las particularidades del lugar. Por eso, debe construirse con un lenguaje claro, dinámico y cercano, capaz de motivar al visitante a comprender y valorar el patrimonio.
+
+    LineaTiempoE.color-secundario.mb-4(data-aos="fade")
+      .row(titulo="Paso 1")
+        .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
+          img(src='@/assets/curso/temas/t2/paso1-1.svg', alt='')
+        .col-lg-10
+          h4 Definir el propósito
+          p Establecer qué se quiere lograr con el recorrido: informar, sensibilizar, educar, promover conservación o fortalecer la valoración del territorio.
+      .row(titulo="Paso 2")
+        .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
+          img(src='@/assets/curso/temas/t2/paso1-2.svg', alt='')
+        .col-lg-10
+          h4 Seleccionar la información
+          p Elegir datos confiables, pertinentes y adecuados para el tipo de visitante. No todo lo investigado debe incluirse en el guion.
+      .row(titulo="Paso 3")
+        .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
+          img(src='@/assets/curso/temas/t2/paso1-3.svg', alt='')
+        .col-lg-10
+          h4 Organizar el recorrido
+          p Definir estaciones, tiempos, mensajes principales, actividades y recursos de apoyo.
+      .row(titulo="Paso 4")
+        .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
+          img(src='@/assets/curso/temas/t2/paso1-4.svg', alt='')
+        .col-lg-10
+          h4 Redactar relatos y diálogos
+          p Construir mensajes claros, breves y atractivos, usando ejemplos, preguntas, comparaciones, anécdotas o metáforas.
+      .row(titulo="Paso 5")
+        .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
+          img(src='@/assets/curso/temas/t2/paso1-5.svg', alt='')
+        .col-lg-10
+          h4 Validar el contenido
+          p Revisar el guion con actores locales, expertos, comunidad o prestadores de servicios para evitar errores, imprecisiones o interpretaciones inadecuadas.
+
+    .cajon.color-primario.p-4.mb-5
+      p La interpretación del patrimonio permite que la información cobre sentido para el visitante. No basta con decir qué es una roca, un fósil, una montaña o una tradición; es necesario explicar por qué es importante, cómo se relaciona con el territorio y qué puede aprender el visitante a partir de ello.
+      p.mb-0 En los procesos de guianza, la interpretación debe ser atractiva, sencilla y significativa. Guerra Rosado (2017), a partir de los aportes de Ham (2013), plantea que una interpretación efectiva debe tener tema, organización, relevancia y amenidad.
+
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 
+      h3.mb-0 Modelo TORA para interpretar el patrimonio
 
+    .bg4.p-4.mb-4(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t2/6.svg', alt='')
+        .col-lg-5
+          ImagenInfografica.color-secundario
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/temas/t2/infog.svg', alt='')
+            .tarjeta.tarjeta--azul.p-3(x="87%" y="11%" numero="+")
+              h5.mb-2 Amenidad
+              p.mb-0 La explicación debe ser clara, cercana y agradable. El uso de ejemplos, comparaciones, preguntas y relatos facilita la comprensión.
+            .tarjeta.tarjeta--azul.p-3(x="79%" y="33%" numero="+")
+              h5.mb-2 Relevancia
+              p.mb-0 El contenido debe conectarse con los intereses, emociones o experiencias del visitante.
+            .tarjeta.tarjeta--azul.p-3(x="72%" y="55%" numero="+")
+              h5.mb-2 Organización
+              p.mb-0 La información debe seguir una secuencia lógica: inicio, desarrollo, cierre y mensaje principal.
+            .tarjeta.tarjeta--azul.p-3(x="65%" y="77%" numero="+")
+              h5.mb-2 Tema
+              p.mb-0 El mensaje debe tener una idea central. Esto evita que el recorrido se convierta en una lista de datos sueltos.
 
+    p Los relatos y diálogos ayudan a que el visitante se conecte con el lugar. Un relato puede explicar cómo se formó un paisaje, qué significado tiene una tradición o por qué un geositio debe conservarse. El diálogo, por su parte, permite hacer preguntas, escuchar opiniones y motivar la participación del grupo.
+    p.mb-4 Las actividades interpretativas también cumplen un papel importante. Pueden incluir observación guiada, preguntas orientadoras, comparación de imágenes, lectura del paisaje, reconocimiento de materiales, juegos breves, ejercicios de ubicación o pequeñas reflexiones durante las paradas.
 
+    .cajon.color-acento-contenido.p-4.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-md-3.col-5.mb-3.mb-md-0
+          img(src='@/assets/curso/temas/t2/7.svg', alt='')
+        .col-lg-10.col-md-9
+          p.mb-0 Si el guion tiene demasiada información técnica, el visitante puede perder el interés. Si tiene poca información, la experiencia puede quedarse solo en recreación. El equilibrio está en comunicar con claridad, rigor y sentido.
 
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h2.mb-0 
+      h3.mb-0 Estrategias para redactar relatos interpretativos
+
+    .row.justify-content-center
+      .col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/t2/8.png', alt='')
+      .col-lg-7
+        LineaTiempoD.color-acento-botones
+          p(numero="1" titulo="Usar lenguaje claro") Evitar explicaciones demasiado técnicas. Si se usa un término especializado, debe explicarse con palabras sencillas.
+          p(numero="2" titulo="Contar una historia") Presentar la información como una secuencia que tenga inicio, desarrollo y cierre. Esto ayuda a que el visitante recuerde mejor el mensaje.
+          p(numero="3" titulo="Conectar con la experiencia") Relacionar el contenido con lo que el visitante observa, siente o conoce. Así el aprendizaje se vuelve más cercano.
+          p(numero="4" titulo="Formular preguntas") Usar preguntas breves para activar la observación y la participación del grupo.
+          p(numero="5" titulo="Cerrar con una idea de conservación") Finalizar cada estación con un mensaje que invite a valorar y cuidar el patrimonio geológico, natural o cultural.
 
 
 </template>
