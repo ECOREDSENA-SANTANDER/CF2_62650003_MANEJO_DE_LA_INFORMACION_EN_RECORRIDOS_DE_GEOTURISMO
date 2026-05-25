@@ -112,7 +112,7 @@
 
     .bg3.p-4.mb-4
       p Para lograr una experiencia más activa, el guía debe conocer previamente las características del grupo. No es lo mismo orientar estudiantes, adultos mayores, turistas internacionales, familias con niños o viajeros interesados en naturaleza.
-      p.mb-0 También debe adaptar la comunicación al perfil del visitante. El lenguaje debe ser claro, amable y ordenado. Cuando el grupo no tiene conocimientos técnicos, es mejor usar ejemplos sencillos y verificar si el mensaje fue comprendido. Además, el guía puede motivar la participación mediante preguntas abiertas, invitando a observar detalles, relacionar lo que se ve con experiencias personales o generar dinámicas de interacción entre los participantes.    
+      p.mb-0 También debe adaptar la comunicación al perfil del visitante. El lenguaje debe ser claro, amable y ordenado. Cuando el grupo no tiene conocimientos técnicos, es mejor usar ejemplos sencillos y verificar si el mensaje fue comprendido. 
 
     .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center

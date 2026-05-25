@@ -153,12 +153,12 @@
       .p-4
         .bg-white.tarjeta.p-4
           TarjetaAudio.color-acento-botones.mb-4(
-            texto="Podcast: ¿Cómo disfrutar un recorrido geoturístico sin dejar huella en el territorio?"
+            texto="Pódcast: ¿Cómo disfrutar un recorrido geoturístico sin dejar huella en el territorio?"
             :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-          p.mb-0.px-lg-4 Para reflexionar sobre la importancia de disfrutar los recorridos geoturísticos sin afectar el patrimonio geológico, natural y cultural del territorio, se recomienda escuchar el recurso de audio “¿Cómo disfrutar un recorrido geoturístico sin dejar huella en el territorio?”. Este podcast explica, mediante ejemplos prácticos, cómo los principios de No Deje Rastro ayudan al guía a orientar comportamientos responsables antes, durante y después del recorrido.
+          p.mb-0.px-lg-4 Para reflexionar sobre la importancia de disfrutar los recorridos geoturísticos sin afectar el patrimonio geológico, natural y cultural del territorio, se recomienda escuchar el recurso de audio “¿Cómo disfrutar un recorrido geoturístico sin dejar huella en el territorio?”. Este pódcast explica, mediante ejemplos prácticos, cómo los principios de No Deje Rastro que ayudan al guía a orientar comportamientos responsables antes, durante y después del recorrido.
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')

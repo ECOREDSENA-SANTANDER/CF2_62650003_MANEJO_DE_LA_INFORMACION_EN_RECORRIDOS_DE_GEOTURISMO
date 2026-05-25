@@ -258,7 +258,7 @@ export default {
         'Posibilidad de que ocurra una situación que afecte la seguridad, bienestar o experiencia del visitante.',
     },
     {
-      termino: 'Storytelling',
+      termino: '<em>Storytelling</em>',
       significado:
         'Técnica narrativa que usa historias para conectar emocionalmente al visitante con el destino.',
     },
@@ -365,7 +365,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -404,8 +405,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Animadora y productora audiovisual',
+          nombre: 'Johann Sebastián Teran Carvajal',
+          cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -414,12 +415,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

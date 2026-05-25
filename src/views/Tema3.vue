@@ -12,7 +12,7 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/t3/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4.px-lg-5
-        p Planear un recorrido geoturístico exige organizar los elementos que harán posible una experiencia segura, clara y bien orientada. No basta con conocer el territorio; también se requiere prever cómo se prestará el servicio, qué recursos se utilizarán, cómo se orientará al grupo y qué instrumentos permitirán ubicar, interpretar y desarrollar la ruta.
+        p Planear un recorrido geoturístico exige organizar los elementos que harán posible una experiencia segura, clara y bien orientada. No basta con conocer el territorio; también se requiere prever cómo se prestará el servicio, qué recursos se utilizarán, cómo se orientará al grupo y qué instrumentos permitirán ubicar, interpretar y desarrollar la ruta. #[br] #[br]
         p.mb-0 La planeación técnica y operativa permite que el guía tome decisiones antes del recorrido. Esto evita improvisaciones, mejora la atención al visitante y facilita la coordinación con otros actores del servicio turístico.
 
     .cajon.color-acento-contenido.p-4

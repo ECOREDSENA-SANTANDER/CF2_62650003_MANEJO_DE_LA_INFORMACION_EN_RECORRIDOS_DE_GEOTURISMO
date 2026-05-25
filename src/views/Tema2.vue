@@ -92,13 +92,15 @@
     #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
       h2 2.2  Guion del recorrido e interpretación del patrimonio: relatos, diálogos, actividades, redacción y validación
 
-    .bloque-texto-g.bg6.b-redo.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade")
+    .bloque-texto-g.bg6.b-redo.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/t2/5.png')})`}"
       )
       .bloque-texto-g__texto.p-4.px-lg-5
-        p El guion del recorrido es una herramienta que ayuda al guía a organizar la información que compartirá con los visitantes. No se trata de escribir un texto para memorizar palabra por palabra, sino de preparar una ruta comunicativa con inicio, desarrollo, cierre, mensajes clave y actividades de interpretación.
+        p El guion del recorrido es una herramienta que ayuda al guía a organizar la información que compartirá con los visitantes. No se trata de escribir un texto para memorizar palabra por palabra, sino de preparar una ruta comunicativa con inicio, desarrollo, cierre, mensajes clave y actividades de interpretación. #[br] #[br]
         p.mb-0 Según González Molina et al. (2023), el guion turístico permite orientar e informar, pero también generar sensibilidad e interés frente a las particularidades del lugar. Por eso, debe construirse con un lenguaje claro, dinámico y cercano, capaz de motivar al visitante a comprender y valorar el patrimonio.
+
+    p.mb-4 Cómo construir el guion del recorrido 
 
     LineaTiempoE.color-secundario.mb-4(data-aos="fade")
       .row(titulo="Paso 1")
