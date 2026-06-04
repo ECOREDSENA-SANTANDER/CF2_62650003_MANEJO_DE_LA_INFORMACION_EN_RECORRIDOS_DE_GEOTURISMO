@@ -154,7 +154,7 @@
         .bg-white.tarjeta.p-4
           TarjetaAudio.color-acento-botones.mb-4(
             texto="Pódcast: ¿Cómo disfrutar un recorrido geoturístico sin dejar huella en el territorio?"
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/componentes/audios/Podcast_CF2_62650003.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

@@ -25,8 +25,8 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/gDh0DUNfD3Q?si=bgI4v4tZ4VB1dbpy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Diseño, planificación y ejecución de recorridos geoturísticos 
 
 
 </template>
