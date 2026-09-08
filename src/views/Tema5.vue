@@ -232,31 +232,31 @@
       h3.mb-0 El cuerpo también comunica
 
     LineaTiempoE.color-secundario.mb-4(data-aos="fade")
-      .row(titulo="Item 1")
+      .row(titulo="A")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t5/paso2-1.svg', alt='')
         .col-lg-10
           h4 Mirada
           p Permite generar contacto con el grupo, verificar atención y transmitir seguridad.
-      .row(titulo="Item 2")
+      .row(titulo="B")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t5/paso2-2.svg', alt='')
         .col-lg-10
           h4 Gestos
           p Refuerzan ideas importantes, señalan elementos del paisaje y ayudan a explicar mejor el mensaje.
-      .row(titulo="Item 3")
+      .row(titulo="C")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t5/paso2-3.svg', alt='')
         .col-lg-10
           h4 Postura
           p Una postura abierta y firme comunica confianza, disposición y liderazgo.
-      .row(titulo="Item 4")
+      .row(titulo="D")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t5/paso2-4.svg', alt='')
         .col-lg-10
           h4 Expresión facial
           p Ayuda a transmitir entusiasmo, cercanía, sorpresa o interés frente al tema explicado.
-      .row(titulo="Item 5")
+      .row(titulo="E")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t5/paso2-5.svg', alt='')
         .col-lg-10

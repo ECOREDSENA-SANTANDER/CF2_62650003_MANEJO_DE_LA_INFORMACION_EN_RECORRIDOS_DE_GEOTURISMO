@@ -188,31 +188,31 @@
       h3.mb-0 Técnicas para evaluar la guianza turística
     
     LineaTiempoE.color-secundario.mb-4(data-aos="fade")
-      .row(titulo="Item 1")
+      .row(titulo="A")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t6/paso1-1.svg', alt='')
         .col-lg-10
           h4 Observación directa
           p Consiste en revisar lo que sucede durante el recorrido. Permite identificar puntualidad, participación del grupo, nivel de atención, desplazamiento seguro, manejo del lenguaje, cumplimiento del itinerario y reacción de los visitantes.
-      .row(titulo="Item 2")
+      .row(titulo="B")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t6/paso1-2.svg', alt='')
         .col-lg-10
           h4 Retroalimentación del visitante
           p Se basa en escuchar la opinión del turista sobre el servicio recibido. Puede recogerse al final del recorrido mediante conversación breve, encuesta o preguntas abiertas.
-      .row(titulo="Item 3")
+      .row(titulo="C")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t6/paso1-3.svg', alt='')
         .col-lg-10
           h4 Autoevaluación del guía
           p Permite que el guía revise su propio desempeño. Aquí analiza si logró los objetivos, comunicó bien la información, manejó el grupo y resolvió imprevistos.
-      .row(titulo="Item 4")
+      .row(titulo="D")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t6/paso1-4.svg', alt='')
         .col-lg-10
           h4 Coevaluación o evaluación entre pares
           p Se realiza cuando otro guía, instructor o compañero observa el recorrido y aporta comentarios sobre el desempeño.
-      .row(titulo="Item 5")
+      .row(titulo="E")
         .col-lg-2.col-md-4.col-5.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t6/paso1-5.svg', alt='')
         .col-lg-10
