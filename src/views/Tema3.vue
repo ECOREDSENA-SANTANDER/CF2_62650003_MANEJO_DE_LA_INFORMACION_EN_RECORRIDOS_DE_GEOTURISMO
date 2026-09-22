@@ -324,7 +324,7 @@
     p El plan de acción es una herramienta que permite organizar previamente el recorrido geoturístico. En él se definen el propósito de la actividad, los tiempos, los espacios, los recursos, las personas responsables y las acciones necesarias para desarrollar el servicio de manera ordenada.
     p.mb-4 Según González Molina et al. (2023), este instrumento facilita la articulación entre los actores o prestadores de servicios que participan en la experiencia, lo que contribuye a ofrecer una atención más integral y coordinada.
 
-    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-down")
+    .row.justify-content-center.align-items-end.mb-4(data-aos="fade-down")
       .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 5.
@@ -353,22 +353,7 @@
                 td Orden de las actividades, tiempos, paradas técnicas, desplazamientos y momentos clave de la ruta.
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/temas/t3/13.png', alt='')
-
-    .subt.mb-4(data-aos="fade-right")
-      img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h3.mb-0 Estructura básica del plan de acción
-
-    .row.justify-content-center.mb-4
-      .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/temas/t3/14.png', alt='')
-      .col-lg-7
-        LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Información base del recorrido") Permite identificar los datos generales del servicio. Incluye destino, fecha, hora, punto de salida, punto de llegada, número de visitantes y guía responsable.
-          p(numero="2" titulo="Caracterización del usuario") Ayuda a reconocer a quién va dirigido el recorrido. Esta información permite ajustar lenguaje, actividades, tiempos y recomendaciones.
-          p(numero="3" titulo="Objetivo del recorrido") Define qué se espera lograr con la experiencia. Puede orientarse a la interpretación, educación, recreación, conservación o valoración del patrimonio.
-          p(numero="4" titulo="Servicios y responsables") Organiza las actividades, prestadores de servicios, apoyos logísticos y personas encargadas de cada momento del recorrido.
-          p(numero="5" titulo="Itinerario") Establece la secuencia del recorrido, tiempos, paradas, desplazamientos, descansos y cierre de la actividad.
-
+   
     .cajon.color-acento-contenido.p-4.mb-4
       p Cuando el plan de acción está bien elaborado, el guía puede anticipar necesidades, coordinar recursos, evitar improvisaciones y responder mejor a las condiciones del recorrido. Esto mejora la experiencia del visitante y fortalece la calidad del servicio turístico.
       p.mb-0 La planeación técnica y operativa integra servicio, recursos, cartografía y plan de acción. Estos elementos permiten que el recorrido geoturístico se desarrolle de manera organizada, segura y pertinente para el grupo visitante.

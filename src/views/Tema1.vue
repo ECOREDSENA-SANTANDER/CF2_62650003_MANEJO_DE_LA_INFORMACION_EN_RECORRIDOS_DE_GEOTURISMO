@@ -62,7 +62,7 @@
   
     Separador
     #t_1_1.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.1  Perfil de usuario en el geoturismo: tipologías, características, segmentos e importancia para la guianza turística
+      h2 1.1 Perfiles de usuarios en el geoturismo: tipologías, características, segmentos e importancia para la guianza turística 
 
     .bloque-texto-g.color-acento-contenido.b-redo.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade")
       .bloque-texto-g__img(

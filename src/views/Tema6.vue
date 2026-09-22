@@ -102,7 +102,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h3.mb-0 7 principios de No Dejar Rastro
+      h3.mb-0 Siete principios de No Dejar Rastro 
 
     SlyderF.mb-5(columnas="col-lg-4 col-md-6")
       .tarjeta.bg3.p-4

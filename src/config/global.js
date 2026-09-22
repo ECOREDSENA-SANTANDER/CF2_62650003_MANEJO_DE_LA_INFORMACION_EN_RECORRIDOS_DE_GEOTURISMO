@@ -34,7 +34,7 @@ export default {
           {
             numero: '1.1',
             titulo:
-              'Perfil de usuario en el geoturismo: tipologías, características, segmentos e importancia para la guianza turística',
+              'Perfiles de usuarios en el geoturismo: tipologías, características, segmentos e importancia para la guianza turística',
             hash: 't_1_1',
           },
         ],
@@ -415,7 +415,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },

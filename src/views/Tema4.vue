@@ -54,48 +54,7 @@
             p Incluye situaciones como aumento de costos, desempleo, reducción de vuelos, crisis económica o dificultades que impactan la prestación del servicio.
           .tarjeta.bg4.p-4(titulo="Riesgo tecnológico")
             p Comprende fallas en infraestructura, problemas energéticos, riesgos informáticos, plataformas no autorizadas o dificultades en los sistemas de comunicación.
-
-    .subt.mb-4(data-aos="fade-right")
-      img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h3.mb-0 Factores de riesgo en el sector turístico
-
-    .row.justify-content-center.mb-5(data-aos="fade")
-      .col-lg-4.col-md-6.mb-3
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t4/tarj1-1.svg' alt='')
-          .tarjeta.bg2.w-100
-            .p-4
-              h4.text-center Ambiental
-              p.text-center Virus, plagas, clima extremo, desastres naturales, contaminación por basuras y desechos.
-      .col-lg-4.col-md-6.mb-3
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t4/tarj1-2.svg' alt='')
-          .tarjeta.bg2.w-100
-            .p-4
-              h4.text-center Social
-              p.text-center Inseguridad, robos, accidentes viales, rumores en redes, servicios de salud ineficientes o condiciones laborales inseguras.
-      .col-lg-4.col-md-6.mb-3
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t4/tarj1-3.svg' alt='')
-          .tarjeta.bg2.w-100
-            .p-4
-              h4.text-center Político
-              p.text-center Conflictos políticos, fallas en la gobernanza o situaciones de orden público.
-      .col-lg-6.col-md-6.mb-3
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t4/tarj1-4.svg' alt='')
-          .tarjeta.bg2.w-100
-            .p-4
-              h4.text-center Económico
-              p.text-center Recesión económica, desempleo, reducción de vuelos o incremento de costos.
-      .col-lg-6.col-md-6.mb-3
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t4/tarj1-5.svg' alt='')
-          .tarjeta.bg2.w-100
-            .p-4
-              h4.text-center Tecnológico
-              p.text-center Fallas energéticas, riesgos informáticos, plataformas turísticas ilícitas o problemas de infraestructura.
-
+    
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
       h3.mb-0 Medidas preventivas y correctivas
@@ -167,28 +126,7 @@
           p Identificar centros de salud cercanos, capacidad de respuesta y contactos de emergencia.
         .col-11.col-md-8.col-lg-5
           img(src='@/assets/curso/temas/t4/acord1-5.png', alt='')
-
-    .subt.mb-4(data-aos="fade-right")
-      img(src='@/assets/curso/temas/t1/subt1.svg', alt='')
-      h3.mb-0 Antes de iniciar el recorrido
-
-    .row.justify-content-center
-      .col-lg-3.col-md-6.col-8.mb-3.mb-lg-0(data-aos="fade-right")
-        img(src='@/assets/curso/temas/t4/6.png', alt='')
-      .col-lg-9(data-aos="fade-left")
-        TabsA.color-acento-botones
-          .tarjeta.bg4.p-4(titulo="Orden público")
-            p Verificar si existen condiciones sociales o de seguridad que puedan afectar el desplazamiento del grupo. Esta revisión evita ingresar a zonas con restricciones, conflictos o alertas locales.
-          .tarjeta.bg4.p-4(titulo="Accesibilidad")
-            p Consultar el estado de las vías, senderos o rutas de acceso. Si hay derrumbes, cierres o mantenimiento, el guía debe activar rutas alternas o ajustar el plan.
-          .tarjeta.bg4.p-4(titulo="Condiciones ambientales")
-            p Revisar el clima antes y durante el recorrido. Lluvias fuertes, altas temperaturas o baja visibilidad pueden modificar la experiencia y aumentar el riesgo.
-          .tarjeta.bg4.p-4(titulo="Equipos y botiquín")
-            p Inspeccionar los elementos necesarios antes de iniciar. Un botiquín incompleto, radios descargados o equipos en mal estado pueden dificultar la respuesta ante una emergencia.
-          .tarjeta.bg4.p-4(titulo="Atención médica cercana")
-            p Identificar los centros de salud, niveles de atención y contactos de emergencia. Esta información es clave en caso de accidente, picadura, fractura, alergia o afectación de salud.
-
-
+    
     Separador
     #t_4_2.titulo-segundo.color-primario(data-aos='fade-right')
       h2 4.2  Plan de contingencia: conceptos, componentes, estructura y respuesta ante eventualidades
